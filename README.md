@@ -5,7 +5,7 @@
 ### create a slice
 
 ```golang
-n := make(slice type, initial number of slices, initial capacity)
+n := make(type, length, capacity)
 ```
 
 
