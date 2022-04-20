@@ -18,5 +18,3 @@ func main() {
 	nums := []int{2, 4, 3, 1, 5, 7, 6}
 	fmt.Println(BubbleSort(nums))
 }
-
-// https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88
