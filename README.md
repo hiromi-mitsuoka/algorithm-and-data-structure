@@ -13,8 +13,9 @@
 | Search | Complexity | note |
 |--------|------------| ---- |
 | linear | O(nm) | Search m data from n data |
+| binary | O(log2(n)) |  |
 
-## Feature
+## Sort Feature
 
 ### Bubble sort
 
@@ -23,7 +24,7 @@
 
 ( https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88 )
 
-### Selection Sort
+### Selection sort
 
 - Sort by finding the smallest value in the array and replacing it with the first element in the array.
 - Sine the worst-case time complexity is O(n**2), a faster method such as quick sort is generally used.
@@ -31,7 +32,22 @@
 
 ( https://ja.wikipedia.org/wiki/%E9%81%B8%E6%8A%9E%E3%82%BD%E3%83%BC%E3%83%88#:~:text=%E9%81%B8%E6%8A%9E%E3%82%BD%E3%83%BC%E3%83%88%EF%BC%88%E8%8B%B1%3A%20selection%20sort,%E6%96%B9%E6%B3%95%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%95%E3%82%8C%E3%82%8B%E3%80%82 )
 
-### Linear search
+
+## Search Feature
+
+### Linear search （線形探索）
+
+- When searching for data in a list or array, the comparison is done from the top, and if it is found, it is done.
+
+( https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%9E%8B%E6%8E%A2%E7%B4%A2#:~:text=%E7%B7%9A%E5%9E%8B%E6%8E%A2%E7%B4%A2%EF%BC%88%E3%81%9B%E3%82%93%E3%81%91%E3%81%84%E3%81%9F%E3%82%93,%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8C%E3%81%B0%E7%B5%82%E4%BA%86%E3%81%99%E3%82%8B%E3%80%82 )
+
+
+### Binary search
+
+- Searching for sorted arrays.
+- Look at the median value and use the relationship between the median value and the value you want to search for to determine if the value you want to search for is to the right or left of the median value, making sure it doesn't exist on one side.
+
+( https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%8E%A2%E7%B4%A2#:~:text=%E4%BA%8C%E5%88%86%E6%8E%A2%E7%B4%A2%EF%BC%88%E3%81%AB%E3%81%B6%E3%82%93%E3%81%9F%E3%82%93,%E6%8E%A2%E7%B4%A2%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E4%B8%80%E3%81%A4%E3%80%82 )
 
 
 ## How to 〇〇
