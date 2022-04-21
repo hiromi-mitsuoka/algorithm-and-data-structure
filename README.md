@@ -1,12 +1,18 @@
 # algorithm-and-data-structure
 
-## Complexity
+## Sort Complexity
 
 | Sort | Complexity |
 |------|------------|
 | bubble | O(n**2) |
 | selection | O(n**2) |
 
+
+## Search Complexity
+
+| Search | Complexity | note |
+|--------|------------| ---- |
+| linear | O(nm) | Search m data from n data |
 
 ## Feature
 
@@ -15,7 +21,7 @@
 - Sort to align adjacent elements by comparing their sizes.
 - While the algorithm is simple and easy to implement, the worst-case time complexity is O(n**2) and slow.
 
-( https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88s )
+( https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88 )
 
 ### Selection Sort
 
@@ -24,6 +30,8 @@
   - However, when other fast methods cannot be used due to limited space, or when the array to sort is smallenough and selective sorting is guaranteed to be fast, it is used.
 
 ( https://ja.wikipedia.org/wiki/%E9%81%B8%E6%8A%9E%E3%82%BD%E3%83%BC%E3%83%88#:~:text=%E9%81%B8%E6%8A%9E%E3%82%BD%E3%83%BC%E3%83%88%EF%BC%88%E8%8B%B1%3A%20selection%20sort,%E6%96%B9%E6%B3%95%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%95%E3%82%8C%E3%82%8B%E3%80%82 )
+
+### Linear search
 
 
 ## How to 〇〇
