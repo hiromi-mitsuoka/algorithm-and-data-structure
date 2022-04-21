@@ -92,3 +92,35 @@ output
 ```
 5 [1 2 3 4 5]
 ```
+
+### Use shift of bit
+
+( https://www.flyenginer.com/low/go/go%E3%81%AE%E3%83%93%E3%83%83%E3%83%88%E6%BC%94%E7%AE%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.html#toc5 )
+
+```golang
+11 << 1
+// 001011 = 11
+// 010110 = 22
+
+11 << 2
+// 001011 = 11
+// 101100 = 44
+```
+
+- Shifts each bit to the left by the specified number. The rightmout bit vacated by the shift is set to 0.
+  - One bit of left shift doubles the value, two bits quadruples it.
+
+---
+
+```golang
+11 >> 1
+// 1011 = 11
+// 0101 = 5
+
+11 >> 2
+// 1011 = 11
+// 0010 = 2
+```
+
+- Shifts each bit to the right by the specified number. THe leftmost bit vacated by the shift is set to 0.
+  - One bit of right shift multiplies the value by a factor of 1/2, two bits by a factor of 1/4.
