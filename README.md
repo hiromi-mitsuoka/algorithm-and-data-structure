@@ -45,3 +45,26 @@ fmt.Printf("len: %d, cap: %d", len(n), cap(n))
 => [0 0 0 0 0]
 => len: 5, cap: 5
 ```
+
+### Blank-separated standard input
+
+```golang
+var n int
+fmt.Scan(&n)
+s := make([]int, n)
+for i := range s {
+  fmt.Scan(&s[i])
+}
+fmt.Println(n, s)
+```
+
+input
+```
+5
+1 2 3 4 5
+```
+
+output
+```
+5 [1 2 3 4 5]
+```
