@@ -7,6 +7,7 @@
 | bubble | O(n**2) |
 | selection | O(n**2) |
 | insertion | O(n**2) |
+| quick | O(n*logn) |
 
 
 ## Search Complexity
@@ -41,6 +42,16 @@
   - Fast for small arrays
 
 ( https://ja.wikipedia.org/wiki/%E6%8C%BF%E5%85%A5%E3%82%BD%E3%83%BC%E3%83%88 )
+
+
+### Quick sort
+
+- Sorting algorithm developed by Antony Hoare in 1960
+- A type of devide-and-conquer low（分割統治法）.
+- It is generary said to be the fastest compared to other sorting methods,
+  - but it is not always fast depending on the sequence of target data or the number of data, and the worst-case computational complexity is O(n**2)
+
+( https://ja.wikipedia.org/wiki/%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%82%BD%E3%83%BC%E3%83%88 )
 
 
 ## Search Feature
