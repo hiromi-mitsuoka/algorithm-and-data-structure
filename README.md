@@ -71,6 +71,16 @@
 ( https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%8E%A2%E7%B4%A2#:~:text=%E4%BA%8C%E5%88%86%E6%8E%A2%E7%B4%A2%EF%BC%88%E3%81%AB%E3%81%B6%E3%82%93%E3%81%9F%E3%82%93,%E6%8E%A2%E7%B4%A2%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E4%B8%80%E3%81%A4%E3%80%82 )
 
 
+## Linked list Feature
+
+### Singly linked list （片方向リスト）
+
+- This link points to the next node on the list, and if it is the tail of the list, it stores a null value or points to an empty list.
+
+
+( https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E3%83%AA%E3%82%B9%E3%83%88#%E7%89%87%E6%96%B9%E5%90%91%E3%83%AA%E3%82%B9%E3%83%88 )
+
+
 ## How to 〇〇
 
 ### create a slice

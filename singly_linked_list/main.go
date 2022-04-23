@@ -23,14 +23,14 @@ func (l *LinkedList) Insert(val int) {
 		l.len++
 		return
 	}
-	pointer := l.head
+	currentNode := l.head
 	for i := 0; i < l.len; i++ {
-		if pointer.next == nil {
-			pointer.next = &n
+		if currentNode.next == nil {
+			currentNode.next = &n
 			l.len++
 			return
 		}
-		pointer = pointer.next
+		currentNode = currentNode.next
 	}
 }
 
@@ -61,10 +61,10 @@ func (l *LinkedList) InsertAt(pos int, value int) {
 }
 
 func (l *LinkedList) GetAt(pos int) *Node {
-	pointer := l.head
+	currentNode := l.head
 
 	if pos < 0 {
-		return pointer
+		return currentNode
 	}
 
 	if pos > (l.len - 1) {
@@ -72,10 +72,10 @@ func (l *LinkedList) GetAt(pos int) *Node {
 	}
 
 	for i := 0; i < pos; i++ {
-		pointer = pointer.next
+		currentNode = currentNode.next
 	}
 
-	return pointer
+	return currentNode
 }
 
 // Traverse
@@ -83,20 +83,20 @@ func (l *LinkedList) Print() {
 	if l.len == 0 {
 		fmt.Println("No nodes in list")
 	}
-	pointer := l.head
+	currentNode := l.head
 	for i := 0; i < l.len; i++ {
-		fmt.Println("Node: ", *pointer)
-		pointer = pointer.next
+		fmt.Println("Node: ", *currentNode)
+		currentNode = currentNode.next
 	}
 }
 
 func (l *LinkedList) Search(val int) int {
-	pointer := l.head
+	currentNode := l.head
 	for i := 0; i < l.len; i++ {
-		if pointer.value == val {
+		if currentNode.value == val {
 			return i
 		}
-		pointer = pointer.next
+		currentNode = currentNode.next
 	}
 	return -1
 }
@@ -124,23 +124,23 @@ func (l *LinkedList) DeleteAt(pos int) error {
 }
 
 func (l *LinkedList) DeleteVal(val int) error {
-	pointer := l.head
+	currentNode := l.head
 	if l.len == 0 {
 		fmt.Println("List is empty")
 		return errors.New("List is empty")
 	}
 	for i := 0; i < l.len; i++ {
-		if pointer.value == val {
+		if currentNode.value == val {
 			if i > 0 {
 				prevNode := l.GetAt(i - 1)
 				prevNode.next = l.GetAt(i).next
 			} else {
-				l.head = pointer.next
+				l.head = currentNode.next
 			}
 			l.len--
 			return nil
 		}
-		pointer = pointer.next
+		currentNode = currentNode.next
 	}
 	fmt.Println("Node not found")
 	return errors.New("Node not found")
