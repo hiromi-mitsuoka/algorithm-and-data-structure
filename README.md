@@ -8,6 +8,7 @@
 | selection | O(n**2) |
 | insertion | O(n**2) |
 | quick | O(n*logn) |
+| merge | O(n*logn) |
 
 
 ## Search Complexity
@@ -52,6 +53,14 @@
   - but it is not always fast depending on the sequence of target data or the number of data, and the worst-case computational complexity is O(n**2)
 
 ( https://ja.wikipedia.org/wiki/%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%82%BD%E3%83%BC%E3%83%88 )
+
+
+### Merge sort
+
+- A bottom-up divide-and-conquer method （分割統治法） where multiple columns that are already aligned are merged into a single column, and the new column is also aligned if the smaller columns are placed in the new column first.
+- Compared to quick sort, the worst-case computational complexity is less. Quick sort is usually faster for random
+
+( https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%BC%E3%83%88 )
 
 
 ## Search Feature
