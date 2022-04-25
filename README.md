@@ -9,6 +9,7 @@
 | insertion | O(n**2) |
 | quick | O(n*logn) |
 | merge | O(n*logn) |
+| heap | O(n*logn) |
 
 
 ## Search Complexity
@@ -61,6 +62,14 @@
 - Compared to quick sort, the worst-case computational complexity is less. Quick sort is usually faster for random
 
 ( https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%BC%E3%83%88 )
+
+
+### Heap sort
+
+- Takes elements from the unaligned list and adds them to the heap in order. Repeat until all elements are added.
+- Extract the root (largest or smallest value) and add it to the aligned list. Iterate until all elements are retrieved.
+
+( https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%BC%E3%83%97%E3%82%BD%E3%83%BC%E3%83%88 )
 
 
 ## Search Feature
