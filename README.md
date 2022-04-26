@@ -99,6 +99,26 @@
 ( https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E3%83%AA%E3%82%B9%E3%83%88#%E7%89%87%E6%96%B9%E5%90%91%E3%83%AA%E3%82%B9%E3%83%88 )
 
 
+## Stack and Queue Features
+
+### Stack
+
+- LIFO (Last in first out)
+
+- In paricular, as a concreate example, it is extremely useful for supporting interrupts and subroutines.
+
+( https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF )
+
+### Queue
+
+- FIFO (First in first out)
+
+- used for handling events or messages in windowing systems, managing processes, and other cases where data needs to be processed in the order in thich it is enterd.
+- When th execution time of individual tasks is unpredictable or takes too long to execute imediately, you can use a queue to store tasks and retrieve them later for asynchronous execution.
+
+( https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A5%E3%83%BC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF) )
+
+
 ## How to 〇〇
 
 ### create a slice
