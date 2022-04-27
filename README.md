@@ -8,6 +8,8 @@
 | selection | O(n**2) |
 | insertion | O(n**2) |
 | quick | O(n*logn) |
+| merge | O(n*logn) |
+| heap | O(n*logn) |
 
 
 ## Search Complexity
@@ -54,6 +56,22 @@
 ( https://ja.wikipedia.org/wiki/%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%82%BD%E3%83%BC%E3%83%88 )
 
 
+### Merge sort
+
+- A bottom-up divide-and-conquer method （分割統治法） where multiple columns that are already aligned are merged into a single column, and the new column is also aligned if the smaller columns are placed in the new column first.
+- Compared to quick sort, the worst-case computational complexity is less. Quick sort is usually faster for random
+
+( https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%BD%E3%83%BC%E3%83%88 )
+
+
+### Heap sort
+
+- Takes elements from the unaligned list and adds them to the heap in order. Repeat until all elements are added.
+- Extract the root (largest or smallest value) and add it to the aligned list. Iterate until all elements are retrieved.
+
+( https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%BC%E3%83%97%E3%82%BD%E3%83%BC%E3%83%88 )
+
+
 ## Search Feature
 
 ### Linear search （線形探索）
@@ -91,6 +109,26 @@
     - Record the results of calculations starting from small problem examples and calculation results to avoid performing the same calculation many times.
     - For efficient reference in inductive relationships, calculation results are kept under headings such as integers, letters and their combinations.
 
+( https://ja.wikipedia.org/wiki/%E5%8B%95%E7%9A%84%E8%A8%88%E7%94%BB%E6%B3%95#:~:text=%E5%8B%95%E7%9A%84%E8%A8%88%E7%94%BB%E6%B3%95%EF%BC%88%E3%81%A9%E3%81%86,%E7%B7%8F%E7%A7%B0%E3%81%97%E3%81%A6%E3%81%93%E3%81%86%E5%91%BC%E3%81%B6%E3%80%82 )
+
+## Stack and Queue Features
+
+### Stack
+
+- LIFO (Last in first out)
+
+- In paricular, as a concreate example, it is extremely useful for supporting interrupts and subroutines.
+
+( https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF )
+
+### Queue
+
+- FIFO (First in first out)
+
+- used for handling events or messages in windowing systems, managing processes, and other cases where data needs to be processed in the order in thich it is enterd.
+- When th execution time of individual tasks is unpredictable or takes too long to execute imediately, you can use a queue to store tasks and retrieve them later for asynchronous execution.
+
+( https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A5%E3%83%BC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF) )
 
 
 ## How to 〇〇
