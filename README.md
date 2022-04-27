@@ -81,6 +81,18 @@
 ( https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E3%83%AA%E3%82%B9%E3%83%88#%E7%89%87%E6%96%B9%E5%90%91%E3%83%AA%E3%82%B9%E3%83%88 )
 
 
+## Dynamic Programming (DP: 動的計画法) Feature
+
+- This is a general term for a method of dividing a target problem into multiple subproblems and solving them while recording the calculation results of the subproblems.
+- It is a generic term for algorithms that satisfy the following two conditions
+  1. Use of inductive relationships
+    - use the solution of a smaller problem example or the results of a calculation to solve a larger problem example using inductive relationships.
+  2. Recording the results of calculations
+    - Record the results of calculations starting from small problem examples and calculation results to avoid performing the same calculation many times.
+    - For efficient reference in inductive relationships, calculation results are kept under headings such as integers, letters and their combinations.
+
+
+
 ## How to 〇〇
 
 ### create a slice
