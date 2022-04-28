@@ -98,18 +98,12 @@
 
 ( https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E3%83%AA%E3%82%B9%E3%83%88#%E7%89%87%E6%96%B9%E5%90%91%E3%83%AA%E3%82%B9%E3%83%88 )
 
+### Doubly linked list （双方向リスト）
 
-## Dynamic Programming (DP: 動的計画法) Feature
+- Each node has two links, one pointing to the next node and the other pointing to the node behind.
 
-- This is a general term for a method of dividing a target problem into multiple subproblems and solving them while recording the calculation results of the subproblems.
-- It is a generic term for algorithms that satisfy the following two conditions
-  1. Use of inductive relationships
-    - use the solution of a smaller problem example or the results of a calculation to solve a larger problem example using inductive relationships.
-  2. Recording the results of calculations
-    - Record the results of calculations starting from small problem examples and calculation results to avoid performing the same calculation many times.
-    - For efficient reference in inductive relationships, calculation results are kept under headings such as integers, letters and their combinations.
+( https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E3%83%AA%E3%82%B9%E3%83%88#%E5%8F%8C%E6%96%B9%E5%90%91%E3%83%AA%E3%82%B9%E3%83%88 )
 
-( https://ja.wikipedia.org/wiki/%E5%8B%95%E7%9A%84%E8%A8%88%E7%94%BB%E6%B3%95#:~:text=%E5%8B%95%E7%9A%84%E8%A8%88%E7%94%BB%E6%B3%95%EF%BC%88%E3%81%A9%E3%81%86,%E7%B7%8F%E7%A7%B0%E3%81%97%E3%81%A6%E3%81%93%E3%81%86%E5%91%BC%E3%81%B6%E3%80%82 )
 
 ## Stack and Queue Features
 
@@ -129,6 +123,19 @@
 - When th execution time of individual tasks is unpredictable or takes too long to execute imediately, you can use a queue to store tasks and retrieve them later for asynchronous execution.
 
 ( https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A5%E3%83%BC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF) )
+
+
+## Dynamic Programming (DP: 動的計画法) Feature
+
+- This is a general term for a method of dividing a target problem into multiple subproblems and solving them while recording the calculation results of the subproblems.
+- It is a generic term for algorithms that satisfy the following two conditions
+  1. Use of inductive relationships
+    - use the solution of a smaller problem example or the results of a calculation to solve a larger problem example using inductive relationships.
+  2. Recording the results of calculations
+    - Record the results of calculations starting from small problem examples and calculation results to avoid performing the same calculation many times.
+    - For efficient reference in inductive relationships, calculation results are kept under headings such as integers, letters and their combinations.
+
+( https://ja.wikipedia.org/wiki/%E5%8B%95%E7%9A%84%E8%A8%88%E7%94%BB%E6%B3%95#:~:text=%E5%8B%95%E7%9A%84%E8%A8%88%E7%94%BB%E6%B3%95%EF%BC%88%E3%81%A9%E3%81%86,%E7%B7%8F%E7%A7%B0%E3%81%97%E3%81%A6%E3%81%93%E3%81%86%E5%91%BC%E3%81%B6%E3%80%82 )
 
 
 ## How to 〇〇
