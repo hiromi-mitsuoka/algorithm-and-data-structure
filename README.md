@@ -197,6 +197,52 @@ output
 5 [1 2 3 4 5]
 ```
 
+
+### Create 2D slice with the number of elements specified by variables
+
+( https://qiita.com/ta7uw/items/387f7b81bb7798915a48 )
+
+```golang
+var n int
+fmt.Scan(&n)
+
+matrix := make([][]int, n)
+for i := range matrix {
+  matrix[i] = make([]int, n)
+}
+```
+
+```txt
+$ go run .
+4
+[[0 0 0 0] [0 0 0 0] [0 0 0 0] [0 0 0 0]]
+```
+
+### Split standard input into variable length
+- Use scanner (bufio)
+
+```golang
+scanner := bufio.NewScanner(os.Stdin)
+
+for i := 0; i < 2; i++ {
+  if scanner.Scan() {
+    str := scanner.Text()
+    arr := strings.Split(str, " ")
+    fmt.Println(str, arr)
+  }
+}
+```
+
+```txt
+$ go run .
+1 2 3
+1 2 3 [1 2 3]
+
+2 4 6
+2 4 6 [2 4 6]
+```
+
+
 ### Use shift of bit
 
 ( https://www.flyenginer.com/low/go/go%E3%81%AE%E3%83%93%E3%83%83%E3%83%88%E6%BC%94%E7%AE%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.html#toc5 )
