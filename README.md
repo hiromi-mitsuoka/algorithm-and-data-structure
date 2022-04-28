@@ -81,7 +81,7 @@
 ( https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%9E%8B%E6%8E%A2%E7%B4%A2#:~:text=%E7%B7%9A%E5%9E%8B%E6%8E%A2%E7%B4%A2%EF%BC%88%E3%81%9B%E3%82%93%E3%81%91%E3%81%84%E3%81%9F%E3%82%93,%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8C%E3%81%B0%E7%B5%82%E4%BA%86%E3%81%99%E3%82%8B%E3%80%82 )
 
 
-### Binary search
+### Binary search （二分探索）
 
 - Searching for sorted arrays.
 - Look at the median value and use the relationship between the median value and the value you want to search for to determine if the value you want to search for is to the right or left of the median value, making sure it doesn't exist on one side.
@@ -123,6 +123,22 @@
 - When th execution time of individual tasks is unpredictable or takes too long to execute imediately, you can use a queue to store tasks and retrieve them later for asynchronous execution.
 
 ( https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A5%E3%83%BC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF) )
+
+
+## Graph
+
+- An abstract data type consisting of a group of nodes (vertices) and a group of edges (branches) that represent the connection relationship between nodes.
+- There are two main types of data structures for the actual representation of graphs.
+  - adjacent list
+    - It is suitable for sparse graphs
+  - adjacency matrix
+- Typical operations on graphs
+  - Depth-first search（深さ優先探索）
+  - Width-first search（幅優先探索）
+  - Dijkstra method（ダイクストラ法）
+  - Walsall-Floyd method（ワーシャル-フロイド法）
+
+( https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%95_(%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0) )
 
 
 ## Dynamic Programming (DP: 動的計画法) Feature
