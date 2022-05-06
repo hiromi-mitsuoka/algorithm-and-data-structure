@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Shell_sort(nums []int) []int {
+func ShellSort(nums []int) []int {
 	n := len(nums)
 	gap := n >> 1
 
@@ -21,5 +21,5 @@ func Shell_sort(nums []int) []int {
 
 func main() {
 	nums := []int{4, 3, 1, 5, 7, 6, 2}
-	fmt.Println(Shell_sort(nums))
+	fmt.Println(ShellSort(nums))
 }
