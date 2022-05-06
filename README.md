@@ -6,6 +6,7 @@
 |------|------------|
 | bubble | O(n**2) |
 | selection | O(n**2) |
+| shell | Interval-dependent |
 | insertion | O(n**2) |
 | quick | O(n*logn) |
 | merge | O(n*logn) |
@@ -35,6 +36,14 @@
   - However, when other fast methods cannot be used due to limited space, or when the array to sort is smallenough and selective sorting is guaranteed to be fast, it is used.
 
 ( https://ja.wikipedia.org/wiki/%E9%81%B8%E6%8A%9E%E3%82%BD%E3%83%BC%E3%83%88#:~:text=%E9%81%B8%E6%8A%9E%E3%82%BD%E3%83%BC%E3%83%88%EF%BC%88%E8%8B%B1%3A%20selection%20sort,%E6%96%B9%E6%B3%95%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%95%E3%82%8C%E3%82%8B%E3%80%82 )
+
+
+### Shell sort
+
+- It is a generalization of insertion sort.
+- It is an algorithm that performs insertion sort for each pair of elements that are some distance apart in the array, and repeats the same sort while decreasing the interval to speed up the prosess.
+
+( https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88 )
 
 
 ### Insertion sort
